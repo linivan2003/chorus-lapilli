@@ -1,0 +1,41 @@
+chorus-lapilli
+1)I first added a counter to ensure that only 3 x's and 3 o's were placed
+ const Xcount = squares.filter((value) => value === "X").length;
+this is the example and i used a counter.
+if the counter was reached you would not be able to place any more Xs or Os
+2) secondly i updated the status message to reflect this checking that the Ocount was 3 and if it was, it would 
+display the status message
+
+Dry Run output:
+npm notice 
+npm notice 📦  chorus-lapilli@0.1.0
+npm notice === Tarball Contents ===
+npm notice 3.4kB README.md
+npm notice 818B  package.json
+npm notice 3.9kB public/favicon.ico
+npm notice 1.7kB public/index.html
+npm notice 5.3kB public/logo192.png
+npm notice 9.7kB public/logo512.png
+npm notice 492B  public/manifest.json
+npm notice 67B   public/robots.txt
+npm notice 564B  src/App.css
+npm notice 2.6kB src/App.js
+npm notice 246B  src/App.test.js
+npm notice 1.5kB src/chorus-lapilli.txt
+npm notice 969B  src/index.css
+npm notice 255B  src/index.js
+npm notice 2.6kB src/logo.svg
+npm notice 362B  src/reportWebVitals.js
+npm notice 241B  src/setupTests.js
+npm notice 1.3kB src/tic-tac-toe.txt
+npm notice === Tarball Details ===
+npm notice name:          chorus-lapilli
+npm notice version:       0.1.0
+npm notice filename:      chorus-lapilli-0.1.0.tgz
+npm notice package size:  27.0 kB
+npm notice unpacked size: 36.0 kB
+npm notice shasum:        1a45324891178c5c236dcd961cee299567628502
+npm notice integrity:     sha512-NnywxguE9iKLu[...]I/dRrhP4gji1A==
+npm notice total files:   18
+npm notice
+chorus-lapilli-0.1.0.tgz

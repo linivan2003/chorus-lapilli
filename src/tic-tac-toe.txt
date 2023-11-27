@@ -1,0 +1,15 @@
+1)I created my react app using:
+npx create-react-app my-react-app
+this made my file have all the necessary components to start working on my tictactoe
+2) I created a function that made a button, i exported it and made it default so other files could use it
+3) in index.js i imported the necessary components from other files such as react and index.css and reactDOM to help interact
+4) in styles.css i defined the style of the button and some other components of my website
+5)I built the board using a Square function and passed in the value of the Square so it could number the squares 1-9
+6)put a function inside a function that logs a click 
+7) we imported usestate to import the state that there is a square that was clicked
+8) we created an array of states that has each state corresponding to a square in the board. we did this in the board function
+9)in order to implement taking turns, we will flip a boolean called xIsNext, we flip it each time and we place it in the handleclick file
+10)if it is already clicked then we will return the function early
+11)in order to declare a winner we basically check the lines to see if theres 3 xs or 3os in a line.
+12) if there is we can end the game early
+13) we create a status to declare the winner, or also if x or o is next. We do this by using status: and if else statements.
